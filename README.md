@@ -34,7 +34,7 @@ pip install -r requirements.txt
 Run the Program:
 
 ```sh
-python device_id_checker.py
+python main.py
 ```
 
 📌 Usage
