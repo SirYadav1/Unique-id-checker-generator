@@ -19,7 +19,7 @@ This tool uses **ANDROID_ID, Board Name, Model, and Manufacturer** to create a *
 ## 🛠️ Installation  
 1️⃣ **Clone the Repository:**  
 ```sh
-https://github.com/SirYadav1/Unique-id-checker-generator.git
+git clone https://github.com/SirYadav1/Unique-id-checker-generator.git
 ```
 ```sh
 cd Unique-id-checker-generator
