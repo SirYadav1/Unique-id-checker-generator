@@ -1,66 +1,82 @@
-# Unique-id-checker-generator
-Unique-id-checker-generator is a Python-based tool designed to generate and verify unique device IDs for Android devices. It combines ANDROID_ID, Board Name, Model, and Manufacturer to generate a SHA-256 hashed unique ID, ensuring a consistent and secure identification system.
+<div align="center">
 
+# Unique ID Checker & Generator
 
+**A Python tool to generate and verify unique device IDs for Android devices.**
 
+[![Python](https://img.shields.io/badge/Python-3.7%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-GPL%203.0-green)](LICENSE)
+[![Platform](https://img.shields.io/badge/Platform-Android-yellow)]()
+[![Stars](https://img.shields.io/github/stars/SirYadav1/Unique-id-checker-generator?style=social)]()
 
-# Unique Device ID Checker 🔍
+---
 
-A Python-based tool to **generate and verify unique device IDs** for Android devices.  
-This tool uses **ANDROID_ID, Board Name, Model, and Manufacturer** to create a **secure and unique SHA-256 hashed device ID**.  
+</div>
 
-## 🚀 Features  
-✅ Generates a **unique and consistent** device ID  
-✅ Verifies if a given device ID matches the current device  
-✅ Works **without root access**  
-✅ **Easy-to-use** interactive CLI menu  
-✅ Uses **Colorama** for a better terminal UI  
+## What it does
 
-## 🛠️ Installation  
-1️⃣ **Clone the Repository:**  
-```sh
+Combines **ANDROID_ID**, **Board Name**, **Model**, and **Manufacturer** to generate a **SHA-256 hashed unique ID** — no root required.
+
+## Features
+
+- Generate a unique, consistent device ID
+- Verify if a given ID matches the current device
+- Works without root access
+- Interactive CLI with colored output
+- Lightweight — single dependency (`colorama`)
+
+## Installation
+
+```bash
 git clone https://github.com/SirYadav1/Unique-id-checker-generator.git
-```
-```sh
 cd Unique-id-checker-generator
-```
-
-## Install Dependencies:
-
-```sh
 pip install -r requirements.txt
 ```
 
-Run the Program:
+## Usage
 
-```sh
+```bash
 python main.py
 ```
 
-📌 Usage
+```
+========================================
+  UNIQUE DEVICE ID VERIFICATION TOOL
+========================================
+1. Generate ID
+2. Verify ID
+3. Exit
+========================================
+Enter your choice (1/2/3):
+```
 
-1. Generate Device ID
+**Generate** — creates a SHA-256 hash from your device info.
 
-Run the script and select option 1 to generate a unique ID for your device.
+**Verify** — checks if an entered ID matches the current device.
 
-2. Verify Device ID
+## How it works
 
-Run the script and select option 2 to check if the entered ID matches the device.
+```
+ANDROID_ID + Board + Model + Manufacturer
+              |
+        SHA-256 Hash
+              |
+      Unique Device ID
+```
 
+## Contributing
 
+Fork, improve, and submit a PR. All contributions welcome.
 
+## Contact
+
+- GitHub: [@SirYadav1](https://github.com/SirYadav1)
+- Email: siryadav@internet.ru
 
 ---
 
-🔗 Contribute
+<div align="center">
 
-Feel free to fork, improve, and submit pull requests! 🚀
+**Made by SirYadav1**
 
-
----
-
-📧 Contact
-
-For any issues or suggestions, reach out via GitHub Issues.
-
-Email : siryadav@internet.ru
+</div>
